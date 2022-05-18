@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        var names = new Array();
+
+      names[0] = "srkar majid";
+      names[1] = "sohan";
+      names[2] = "tanvir";
+      names[3] = "pranto";
+      names[4] = "fokrul";
+
+        document.write(names[4]); // indexing
+        document.write("<br>")
+        document.write(names);   // all print
+        document.write("<br>")
+        document.write(names.length);   // finding length
+        document.write("<br> <br> <br>");
+
+        // onnovabe o array declare kora jay//
+
+        var names = ["srkar majid","sohan","tanvir","fokrul","pranto","srabon"];
+
+        names.push("sajid") // push use for adding a value that added last index.
+        document.write(names);
+        document.write("<br>")
+        
+        names.unshift("gomes"); // unshift use for adding a value that add first index.    
+        document.write(names);
+        document.write("<br>");
+        
+        names.splice(2,0,"rahim,karim"); // 2number index theke add kora hbe rohim,karim 0 mane delete,adike ektao delete kora hbe na. 1 thakle last index theke 1ta value delete hoto.
+        document.write(names);
+        document.write("<br>");
+        
+        names.sort();         // alphabet order a sajabe sob.
+        document.write(names);
+        document.write("<br>");
+
+        names.pop();       // pop use for deleting a value that delete last index.
+        
+        document.write("<br>");
+        names.shift();    // shift use for deleting a value that delete first index.
+
+        document.write(names); // all print
+        document.write("<br>");
+        document.write(names.length); // length 
+        document.write("<br>")
+        document.write(names[5]); // indexing
+        document.write("<br>");
+
+        // this is concatination topic//
+
+        var country1 = ["bangladesh","america"];
+        var country2 = ["india","pakistan"];
+        var country = country1.concat(country2);
+
+        document.write(country); 
+        document.write("<br><br>");
+        
+        var number = [20,5,23,57,10,50]     // number sorting ar niom.
+        number.sort(function(a,b){
+            return a-b;
+        });
+        document.write(number);
+
+    </script>
+</body>
+</html>

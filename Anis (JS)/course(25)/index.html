@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>course(25)</title>
+</head>
+<body>
+	<script>
+		
+			function Data(name,age,skill,gpa,address){
+				this.name = name;
+				this.age = age;
+				this.skill = skill;
+				this.gpa = gpa; 
+				this.address = address;
+
+
+				this.display = function(){
+					document.write(this.name);
+					document.write("<br>");
+					document.write(this.age);
+					document.write("<br>");
+					document.write(this.skill);
+					document.write("<br>");
+					document.write(this.gpa);
+					document.write("<br>");
+					document.write(this.address);
+					document.write("<br>");
+					document.write("<br>");
+				}
+			}
+
+			var student1 = new Data("Srkar majid",24,["html","css","python"],5.00,"Dhaka");
+
+			var student2 = new Data("Sohan",23,["python","html","css"],5.00,"barisal");
+			var student3 = new Data("tanvir",23,["python","html","css"],5.00,"noakhali");
+			var student4 = new Data("Srabon",23,["python","html","css"],5.00,"chittagang");
+
+
+			
+			student1.display();
+			document.write("<br>");
+			student2.display();
+			document.write("<br>");
+			student3.display();
+			document.write("<br>");
+			student4.display();
+
+
+
+	</script>
+
+</body>
+</html>

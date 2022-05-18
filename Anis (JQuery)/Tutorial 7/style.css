@@ -1,0 +1,16 @@
+#div1{
+    background-color: black;
+    color: gold;
+    font-size: 2rem;
+    font-style: italic;
+    padding: 30px;
+    margin: 10px;
+}
+
+.btn{
+    color: red;
+    background-color: black;
+    font-size: 2rem;
+    padding: 5px;
+    margin: 10px;
+}

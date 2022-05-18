@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>course(27)</title>
+</head>
+<body>
+	<script>
+
+		var numberofwon = 0;
+		var numberoflose = 0;
+
+		for (var i=1; i<=5; i++){
+
+		 guessNumber = parseInt(prompt("Enter a number between 1-5 :"));
+
+		var randomNumber = Math.floor(Math.random()*5+1);
+
+		if (guessNumber==randomNumber){
+			document.write("You have won."+"<br><br>");
+			numberofwon ++;
+		}
+		else {
+			document.write("You have lose.Random number was :"+randomNumber+ "<br><br>");
+			numberoflose ++;
+		}
+
+		}
+
+		document.write("<<<<<>>>>>"+"<hr>");
+		document.write("Total number of won : "+numberofwon+"<br>");
+		document.write("Total number of lose : "+numberoflose+"<br>");
+
+
+
+	</script>
+
+</body>
+</html>

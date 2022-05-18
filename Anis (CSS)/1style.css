@@ -1,0 +1,19 @@
+h1{
+	background-color: green;
+	display: inline; /* display inline dile eta block element theke inline hoy.*/
+}
+span {
+	background-color: red /* span nije theke e inline So joto tuku proyojon toto tuku e jayga nise*/
+}
+.e1{
+	max-width: 1200px;
+	color: red;
+	border : 3px solid green; /* max width use kora valo always width r poriborte.. coz eta page choto hole auto choto hoy.*/
+}
+.gradient-style {
+
+	width: 100%;
+	height: 400px;
+	background-image: linear-gradient(to right,red,yellow)
+	/* linear r poriborte radial use kora jay & to right r poriborte circle use kora gol kora jay*/
+}

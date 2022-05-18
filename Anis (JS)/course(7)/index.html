@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>course(7)</title>
+</head>
+<body>
+	<script>
+		var name = "srkar majid";
+		name.length;
+
+		document.write(name.length);
+
+		var name = "bangladesh";
+
+		var len = name.length;
+		document.write(len);
+
+		var name = "java script";
+		document.write("The number is "+ name.length);
+
+
+		// now user input //
+
+		var name = prompt("Enter your name :");
+
+		document.write("Number of characters :" + name.length);
+
+
+		// position of index //
+
+		var name ='bangladesh  ';
+
+		document.write(name.charAt(2));
+
+		var name = 'majid  ';
+
+		document.write(name.charAt(3));
+
+		// use UpperCase //
+
+		var name = "md majidur rahman sarker  ";
+
+		var NAME = name.toUpperCase();
+		document.write(NAME);
+
+		// LowerCase //
+
+		var NAME = 'MD MAJIDUR RAHMAN SARKER  ';
+		var name = NAME.toLowerCase();
+		document.write(name);
+
+		// concatanation with function //
+
+		var text1 = "bangladesh";
+		var text2 = 'is a beautiful country';
+		document.write(text1.concat(text2));
+
+		// emne o kora jay //
+
+		var text1 = "My name is ";
+		var text2 = "Srkar majid  ";
+		var text = text1.concat(text2);
+		document.write(text);
+
+		// slice function (kete nea)//
+		var text = 'bangladesh \n';
+		var text1 = text.slice(0,6);
+		document.write(text1);
+
+        
+        document.write('<br><br>');
+        
+        var Name = prompt("Enter Your Name : ");
+        document.write('My Name is ',Name,"<br>Name length is ",Name.length,"<br>Name Lowercase is ",Name.toLocaleLowerCase(),"<br>Name Uppercase is ",Name.toUpperCase());
+
+	</script>
+
+</body>
+</html>
